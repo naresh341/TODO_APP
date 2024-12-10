@@ -1,5 +1,5 @@
 import React from "react";
-import { DotLottieReact } from "@lottiefiles/dotlottie-react"; // Lottie library
+import { DotLottieReact } from "@lottiefiles/dotlottie-react"; 
 import "@theme-toggles/react/css/Classic.css";
 
 const Header = ({ isDarkMode, toggleTheme }) => {
