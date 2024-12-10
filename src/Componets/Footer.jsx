@@ -11,14 +11,14 @@ const Footer = ({ tasks, clearCompleted, setFilter, filter }) => {
         isDarkMode ? "bg-very-dark-desaturated-blue text-very-light-gray" : "bg-very-light-gray text-very-dark-gray"
       }`}
     >
-      {/* Remaining Tasks Count */}
+      
       <span
         className={`  sm:text-base ${isDarkMode ? "text-very-light-gray" : "text-very-dark-gray"}`}
       >
         {remainingTasks} item{remainingTasks !== 1 ? "s" : ""} left
       </span>
 
-      {/* Filter Buttons */}
+      
       <div className="flex space-x-4 text-sm sm:text-base md:text-lg">
         <button
           className={` ${
@@ -46,7 +46,7 @@ const Footer = ({ tasks, clearCompleted, setFilter, filter }) => {
         </button>
       </div>
 
-      {/* Clear Completed Button */}
+      
       <button
         className={` hover:text-gray-400 text-sm sm:text-base md:text-lg ${
           isDarkMode ? "text-very-light-gray" : "text-very-dark-gray"
